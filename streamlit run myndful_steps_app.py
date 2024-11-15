@@ -144,6 +144,16 @@ elif app_mode == "Educational Module":
             - Physical and emotional reactions (e.g., fatigue, stress, or excitement) can influence self-efficacy.
             - When individuals feel relaxed and positive, they tend to have stronger self-efficacy beliefs.
             - Conversely, experiencing negative physical symptoms like exhaustion or anxiety may lead to doubts about one's ability to succeed.
+
+    **Stages of Change**:
+    - Pre-contemplation, Contemplation, Preparation, Action, Maintenance.
+
+    **Counseling Services**:
+    - **The Counseling Center** offers mental health support for all students.
+    - **Contact Information**:
+        - Phone: 781-891-2274
+        - Location: Callahan Building, 2nd Floor
+        - Hours: Mon-Fri, 9am-12pm & 1pm-4pm (Closed 12-1pm for lunch)
     """)
 
 
