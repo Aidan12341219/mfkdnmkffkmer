@@ -73,6 +73,7 @@ st.write("""
         - People will adhere to behaviors if they:
             - Believe they can initiate and carry out this behavior (self-efficacy),
             - Believe that the behavior will produce valuable outcomes (outcome expectations)
+        - Reciprocal determinism: Human functioning is a product of interaction of behavior, environment, and person variables, especially self-efficacy and other cognitive processes
             
         - Sources of self-efficacy:
 ﻿﻿            - Mastery Experiences (successes/failures): personal successes and failures that shape a person’s confidence in their abilities.
