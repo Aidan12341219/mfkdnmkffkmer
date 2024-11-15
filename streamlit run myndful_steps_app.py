@@ -10,7 +10,16 @@ st.title("Myndful Steps")
 
 # Sidebar navigation
 st.sidebar.header("Navigation")
-app_mode = st.sidebar.radio("Select Mode", ["Home", "Self-Efficacy", "Stages of Change", "Physical Activity", "Barriers to Physical Activity", "Educational Module", "Activity Log", "Results"])
+app_mode = st.sidebar.radio("Select Mode", [
+    "Home", 
+    "Self-Efficacy", 
+    "Stages of Change", 
+    "Physical Activity", 
+    "Barriers to Physical Activity", 
+    "Educational Module", 
+    "Activity Log", 
+    "Results"
+])
 
 # Home Page
 if app_mode == "Home":
@@ -156,7 +165,6 @@ elif app_mode == "Educational Module":
         - Hours: Mon-Fri, 9am-12pm & 1pm-4pm (Closed 12-1pm for lunch)
     """)
 
-
 # Activity Log (Journaling)
 elif app_mode == "Activity Log":
     st.header("Weekly Activity Log")
@@ -195,20 +203,6 @@ elif app_mode == "Results":
     if 'barriers' in st.session_state:
         st.write(f"**Barriers to Physical Activity**: {st.session_state.barriers}")
     
-    if 'activity_log' in st.session_state:
-        st.write("**Weekly Activity Log**:")
-        for day, log in st.session_state.activity_log.items():
-            st.write(f"{day}: {log}")
-    
-    # Tailored recommendations based on WHO guidelines
-    st.write("\n### Recommendations:")
-    if st.session_state.get('exercise_frequency', 0) < 3:
-        st.write("- Aim to exercise 3-5 days per week to meet minimum health guidelines.")
-    if st.session_state.get('exercise_duration', 0) < 30:
-        st.write("- Consider increasing sessions to at least 30 minutes for optimal benefits.")
-    if st.session_state.get('cardio_minutes', 0) + st.session_state.get('weight_minutes', 0) < 150:
-        st.write("- WHO recommends at least 150-300 minutes of moderate exercise per week or 75-150 minutes of vigorous exercise per week.")
-    
-    st.write("\n**Remember:** Counseling Center is available to support your mental well-being. Reach out if needed!")
+    if 'activity_log
 
 
