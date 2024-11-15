@@ -146,26 +146,30 @@ elif app_mode == "Educational Module":
             - Conversely, experiencing negative physical symptoms like exhaustion or anxiety may lead to doubts about one's ability to succeed.
 
     **Stages of Change**:
-    - Pre-contemplation
+    - **Pre-contemplation**:
         - Individuals in this stage have no immediate intention to change their behavior and may be unaware of the problem or its consequences. 
           Often, people in this stage underestimate the benefits of change or see the downsides of change as too significant. 
           Health interventions at this stage aim to raise awareness and encourage self-reflection, helping individuals recognize why the change might be beneficial in the future.
-    - Contemplation
+    
+    - **Contemplation**:
         - At this stage, individuals acknowledge the need for change and start weighing the pros and cons but have not committed to action. 
           This period can involve ambivalence and may last for extended periods as individuals assess their motivations. 
           Effective interventions in the contemplation stage often provide information on the benefits of change and work to reduce perceived obstacles, helping individuals develop a stronger desire to take action.
-    - Preparation
+    
+    - **Preparation**:
         - In the preparation stage, individuals make concrete plans to begin the desired behavior change, such as gathering information, setting goals, or preparing resources. 
           The decision to act is made, and short-term steps are initiated to build momentum toward change. 
           Supportive strategies here can include setting a start date, creating a plan, and finding resources or support systems to help maintain motivation.
-    - Action
-        -This stage involves direct efforts to change behavior, such as actively engaging in exercise routines if the goal is physical activity. 
-         It is often the most visible stage, where individuals start adopting new, healthier behaviors. 
-         Support during this phase is essential to reinforce motivation, celebrate successes, and provide tools to overcome challenges, ensuring that the change can be sustained.
-    - Maintenance
-        -Individuals in the maintenance stage continue the behavior consistently, typically for six months or more, and work to prevent relapse. 
-         This phase focuses on reinforcing progress and finding strategies to deal with potential triggers that could lead to reverting to old habits. 
-         Maintenance often involves a continuous commitment to the behavior, adjusting strategies as necessary, and may include reminders of the initial motivations to help sustain progress.
+    
+    - **Action**:
+        - This stage involves direct efforts to change behavior, such as actively engaging in exercise routines if the goal is physical activity. 
+          It is often the most visible stage, where individuals start adopting new, healthier behaviors. 
+          Support during this phase is essential to reinforce motivation, celebrate successes, and provide tools to overcome challenges, ensuring that the change can be sustained.
+    
+    - **Maintenance**:
+        - Individuals in the maintenance stage continue the behavior consistently, typically for six months or more, and work to prevent relapse. 
+          This phase focuses on reinforcing progress and finding strategies to deal with potential triggers that could lead to reverting to old habits. 
+          Maintenance often involves a continuous commitment to the behavior, adjusting strategies as necessary, and may include reminders of the initial motivations to help sustain progress.
 
     **Counseling Services**:
     - **The Counseling Center** offers mental health support for all students.
@@ -174,6 +178,7 @@ elif app_mode == "Educational Module":
         - Location: Callahan Building, 2nd Floor
         - Hours: Mon-Fri, 9am-12pm & 1pm-4pm (Closed 12-1pm for lunch)
     """)
+
 
 
 # Activity Log (Journaling)
